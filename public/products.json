@@ -1,0 +1,340 @@
+[
+  {
+    "id": 1,
+    "name": "Orange",
+    "price": "2.00",
+    "description": "A delicious apple",
+    "stock": 36,
+    "is_active": true,
+    "created_at": "2025-09-23T15:38:36.209560Z",
+    "updated_at": "2025-09-23T19:12:41.889755Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Pear",
+    "price": "5.00",
+    "description": "fruit",
+    "stock": 23,
+    "is_active": true,
+    "created_at": "2025-09-23T15:39:06.249157Z",
+    "updated_at": "2025-09-23T15:39:06.249205Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Carrot",
+    "price": "3.00",
+    "description": "vegetable",
+    "stock": 36,
+    "is_active": true,
+    "created_at": "2025-09-23T15:39:26.703462Z",
+    "updated_at": "2025-09-23T15:39:26.703666Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Lettuce",
+    "price": "6.00",
+    "description": "vegetable",
+    "stock": 15,
+    "is_active": true,
+    "created_at": "2025-09-23T15:39:47.538391Z",
+    "updated_at": "2025-09-23T15:39:47.538450Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Pineapple",
+    "price": "4.50",
+    "description": "fruit",
+    "stock": 26,
+    "is_active": true,
+    "created_at": "2025-09-23T18:30:53.105528Z",
+    "updated_at": "2025-09-23T18:30:53.105605Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Banana",
+    "price": "1.99",
+    "description": "fruit",
+    "stock": 60,
+    "is_active": true,
+    "created_at": "2025-09-23T18:31:14.594880Z",
+    "updated_at": "2025-09-23T18:31:14.594923Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Potato",
+    "price": "2.55",
+    "description": "vegtable",
+    "stock": 35,
+    "is_active": true,
+    "created_at": "2025-09-23T18:31:55.186763Z",
+    "updated_at": "2025-09-23T18:31:55.186796Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Cucumber",
+    "price": "3.55",
+    "description": "vegetable",
+    "stock": 26,
+    "is_active": true,
+    "created_at": "2025-09-23T19:03:15.412813Z",
+    "updated_at": "2025-09-23T19:03:15.412858Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Apple",
+    "price": "12.00",
+    "description": "fruit",
+    "stock": 60,
+    "is_active": true,
+    "created_at": "2025-09-23T19:16:25.978389Z",
+    "updated_at": "2025-09-23T19:16:51.000757Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Strawberry",
+    "price": "6.50",
+    "description": "fruit",
+    "stock": 36,
+    "is_active": true,
+    "created_at": "2025-09-23T19:21:15.321669Z",
+    "updated_at": "2025-09-23T19:21:15.321735Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Blackberry",
+    "price": "6.80",
+    "description": "fruit",
+    "stock": 20,
+    "is_active": true,
+    "created_at": "2025-09-23T19:39:46.576169Z",
+    "updated_at": "2025-09-23T19:39:46.576215Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Grape",
+    "price": "8.00",
+    "description": "A bunch of grapes",
+    "stock": 45,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:00.000000Z",
+    "updated_at": "2025-09-26T08:57:00.000000Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Watermelon",
+    "price": "15.00",
+    "description": "A big juicy fruit",
+    "stock": 10,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:05.000000Z",
+    "updated_at": "2025-09-26T08:57:05.000000Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Tomato",
+    "price": "4.20",
+    "description": "Fruit or vegetable?",
+    "stock": 50,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:10.000000Z",
+    "updated_at": "2025-09-26T08:57:10.000000Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Broccoli",
+    "price": "5.50",
+    "description": "A green vegetable",
+    "stock": 30,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:15.000000Z",
+    "updated_at": "2025-09-26T08:57:15.000000Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Mango",
+    "price": "7.50",
+    "description": "A tropical fruit",
+    "stock": 25,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:20.000000Z",
+    "updated_at": "2025-09-26T08:57:20.000000Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Spinach",
+    "price": "3.80",
+    "description": "Leafy green vegetable",
+    "stock": 40,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:25.000000Z",
+    "updated_at": "2025-09-26T08:57:25.000000Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Kiwi",
+    "price": "4.10",
+    "description": "Small, fuzzy fruit",
+    "stock": 55,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:30.000000Z",
+    "updated_at": "2025-09-26T08:57:30.000000Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Onion",
+    "price": "2.25",
+    "description": "Root vegetable",
+    "stock": 70,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:35.000000Z",
+    "updated_at": "2025-09-26T08:57:35.000000Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Cabbage",
+    "price": "4.90",
+    "description": "A leafy vegetable",
+    "stock": 28,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:40.000000Z",
+    "updated_at": "2025-09-26T08:57:40.000000Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Lemon",
+    "price": "1.50",
+    "description": "A sour citrus fruit",
+    "stock": 50,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:45.000000Z",
+    "updated_at": "2025-09-26T08:57:45.000000Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Corn",
+    "price": "3.10",
+    "description": "A vegetable on a cob",
+    "stock": 35,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:50.000000Z",
+    "updated_at": "2025-09-26T08:57:50.000000Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Avocado",
+    "price": "9.50",
+    "description": "A creamy fruit",
+    "stock": 18,
+    "is_active": true,
+    "created_at": "2025-09-26T08:57:55.000000Z",
+    "updated_at": "2025-09-26T08:57:55.000000Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Garlic",
+    "price": "2.80",
+    "description": "A strong-flavored vegetable",
+    "stock": 60,
+    "is_active": true,
+    "created_at": "2025-09-26T08:58:00.000000Z",
+    "updated_at": "2025-09-26T08:58:00.000000Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Peach",
+    "price": "5.60",
+    "description": "A soft and juicy fruit",
+    "stock": 29,
+    "is_active": true,
+    "created_at": "2025-09-26T08:58:05.000000Z",
+    "updated_at": "2025-09-26T08:58:05.000000Z",
+    "category_detail": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Bell Pepper",
+    "price": "4.75",
+    "description": "A colorful vegetable",
+    "stock": 22,
+    "is_active": true,
+    "created_at": "2025-09-26T08:58:10.000000Z",
+    "updated_at": "2025-09-26T08:58:10.000000Z",
+    "category_detail": {
+      "name": "Vegetables"
+    }
+  }
+]
