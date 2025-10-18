@@ -16,7 +16,7 @@ export default function Thead({
           >
             {title === "Categoria" ? (
               <div className="relative inline-block w-full">
-                <span className="pr-1">Categoria</span>
+                <span className="pr-2">Categoria</span>
                 <select
                   value={categoryToFilter}
                   onChange={(e) => setCategoryToFilter(e.target.value)}
@@ -30,7 +30,7 @@ export default function Thead({
                   ))}
                 </select>
                 <div className="pointer-events-none absolute top-0 right-0 h-full flex items-center pr-1">
-                  <ArrowDown className="w-5 h-5" />
+                  <ArrowDown className="size-4" />
                 </div>
               </div>
             ) : (

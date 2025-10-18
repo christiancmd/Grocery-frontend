@@ -203,7 +203,7 @@ export default function CrudOverviewPanel({ analysisData }) {
       </h2>
 
       <div className="px-6 pb-6">
-        <p className="text-sm text-gray-600  mb-6 leading-relaxed">
+        <p className=" text-gray-600 mb-6 leading-relaxed">
           Este panel resume el estado actual del sistema CRUD, incluyendo
           métricas de productos activos, inactivos y totales.
         </p>

@@ -5,6 +5,7 @@ import { saveProduct, getProduct, updateProduct } from "../api/request";
 import { useNavigate, useParams } from "react-router-dom";
 import toast from "react-hot-toast";
 import { useCategories } from "../context/CategoriesContext";
+import Button from "./ui/Button";
 
 export default function ProductForm() {
   const { categories } = useCategories();
@@ -288,12 +289,12 @@ export default function ProductForm() {
         </div>
 
         {/* Botón */}
-        <button
+        <Button
           type="submit"
-          className="w-full bg-blue-600 text-white py-2 rounded-md font-medium hover:bg-blue-700 active:bg-blue-900 transition-colors"
+          className="text-white w-full bg-gradient-to-br from-blue-600 to-blue-400 border-2 border-white hover:bg-none hover:shadow-2xl hover:text-blue-600 hover:border-blue-400 active:border-blue-700"
         >
           Guardar producto
-        </button>
+        </Button>
       </form>
     </section>
   );

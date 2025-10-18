@@ -6,7 +6,7 @@ import { useDownload } from "../../Hooks/useDownload";
 export default function ButtonSection({ clickDownloadPdf }) {
   const download = useDownload();
   return (
-    <div className="w-full flex flex-col sm:flex-row justify-center items-center gap-4 mb-2">
+    <div className="w-full flex flex-col sm:flex-row justify-center items-center gap-4 mb-2 bg-none">
       <Button
         onClick={() => {
           download(
@@ -15,13 +15,13 @@ export default function ButtonSection({ clickDownloadPdf }) {
             "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
           );
         }}
-        className="w-56 py-3.5 bg-gradient-to-br from-green-400 to-green-200 text-green-900 border-2 border-white rounded-sm cursor-pointer hover:from-green-400 hover:to-green-600 hover:text-white hover:font-semibold a"
+        className="w-56 text-white bg-gradient-to-br from-emerald-500 to-emerald-400 border-2 border-white hover:bg-none hover:border-green-400 "
       >
         Exportar Excel
       </Button>
 
       <Link to={"/Product"}>
-        <Button className="w-56 py-3.5 bg-gradient-to-br from-blue-400 to-blue-200 text-blue-900 border-2 border-white rounded-sm cursor-pointer hover:from-blue-400 hover:to-blue-600 hover:text-white hover:font-semibold ">
+        <Button className="w-56 text-white bg-gradient-to-br from-blue-600 to-blue-400 border-2 border-white hover:bg-none hover:border-blue-400">
           Crear Producto
         </Button>
       </Link>
@@ -30,7 +30,7 @@ export default function ButtonSection({ clickDownloadPdf }) {
         onClick={() => {
           clickDownloadPdf(true);
         }}
-        className="w-56 py-3.5 bg-gradient-to-br from-red-400 to-red-200 text-red-900 border-2 border-white rounded-sm cursor-pointer hover:from-red-400 hover:to-red-600 hover:text-white hover:font-semibold"
+        className="w-56 text-white bg-gradient-to-br from-red-600 to-red-400 border-2 border-white hover:bg-none hover:border-red-400"
       >
         Exportar PDF
       </Button>

@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@layer base{
+    h1{
+        @apply font-bold text-lg
+    }
+
+    h2{
+        @apply font-semibold text-[16px]
+    }
+
+    p{
+        @apply font-stretch-75% text-sm
+    }
+}
+
+@layer components{
+    .card{
+        @apply w-60 h-80 border rounded-lg overflow-clip;
+    }
+
+    .button{
+        @apply py-3 rounded border cursor-pointer font-normal transition-all 
+    }
+}
