@@ -37,7 +37,7 @@ export default function Dashboard() {
 
   const paginatedProducts = filteredProducts.slice(
     (currentPage - 1) * pageSize,
-    currentPage * pageSize
+    currentPage * pageSize,
   );
 
   useEffect(() => {
@@ -162,7 +162,7 @@ export default function Dashboard() {
 
     if (!isValidData) {
       console.warn(
-        "❌ Datos incompletos o mal formateados. No se generará el PDF."
+        "Datos incompletos o mal formateados. No se generará el PDF.",
       );
       setClickPdf(false);
       return;
@@ -191,7 +191,7 @@ export default function Dashboard() {
 
     // Validación final antes de exportar
     if (totalProducts === 0 || categories === 0) {
-      console.warn("⚠️ No hay suficientes datos para generar el PDF.");
+      console.warn("No hay suficientes datos para generar el PDF.");
       setClickPdf(false);
       return;
     }
@@ -202,7 +202,7 @@ export default function Dashboard() {
   }, [clickPdf]);
 
   return (
-    <section className="w-full flex-1 overflow-y-auto bg-cyan-950 h-full p-6">
+    <section className="w-full flex-1 overflow-y-auto bg-cyan-950 h-full p-7">
       <div>
         <ButtonSection clickDownloadPdf={setClickPdf} />
 
@@ -219,7 +219,7 @@ export default function Dashboard() {
       </div>
 
       {/* Vista dividida: tabla a la izquierda, info a la derecha */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-1.5">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 mt-1.5">
         {/* Tabla */}
         <div>
           <Table>

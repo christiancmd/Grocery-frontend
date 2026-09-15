@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import HeroProducts from "./components/HeroProducts";
 import Dashboard from "./components/dashboard/Dashboard";
 import ProductForm from "./components/ProductForm";
-import DetailsProduct from "./components/detailsProduct";
+import DetailsProduct from "./components/DetailsProduct";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
@@ -12,9 +12,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <CategoriesProvider>
-        <div className="w-full flex flex-col min-h-screen bg-sky-950">
+        <div className="w-full flex flex-col min-h-screen bg-slate-100">
           <Header />
-          <main className="flex-grow">
+          <main className="grow">
             <Routes>
               <Route path="/" element={<Navigate to="/Home" />} />
 

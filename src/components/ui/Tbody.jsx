@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
-import { Check, X, Trash, Edit } from "lucide-react";
+import { Check, X, Trash, Edit, Leaf } from "lucide-react";
 
 export default function Tbody({ products, handleDelete, handleEdit }) {
   const navigate = useNavigate();
@@ -24,7 +24,9 @@ export default function Tbody({ products, handleDelete, handleEdit }) {
             className="h-12 border-gray-300 border hover:bg-blue-300 transition"
           >
             <td className="px-2 py-1 text-xs whitespace-nowrap truncate border-l-2 border-gray-300">
-              <div className="bg-gray-300 p-6"></div>
+              <div className="bg-sky-pale p-3 flex items-center justify-center rounded">
+                <Leaf className="text-sky-600 opacity-50" size={20} strokeWidth={1.5} />
+              </div>
             </td>
             <td className="px-2 py-1 text-xs whitespace-nowrap truncate border-l-2 border-gray-300">
               {product.name ? product.name : "No disponible"}

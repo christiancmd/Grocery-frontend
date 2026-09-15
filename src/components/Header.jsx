@@ -1,23 +1,18 @@
-import Button from "./ui/Button";
 import { Link } from "react-router-dom";
 import { Store } from "lucide-react";
+
 export default function Header() {
   return (
-    <header className="w-full h-16 py-2 bg-sky-900 text-white flex justify-around items-center">
-      <div>
-        <Link to={"/Home"}>
-          <h1 className=" font-bold flex gap-2">
-            <span>
-              <Store />
-            </span>
-            Grocery
-          </h1>
-        </Link>
-      </div>
-      <Link to={"/dashboard"}>
-        <Button className="w-34 border-2 bg-gradient-to-br from-blue-600 to-blue-500 text-white border-white px-10 hover:bg-none hover:border-blue-500 active:border-white">
-          Gestion
-        </Button>
+    <header className="w-full h-16 bg-sky-900 flex items-center justify-between px-6 md:px-10">
+      <Link to="/Home" className="flex items-center gap-2 no-underline">
+        <Store className="text-slate-50" size={24} />
+        <span className="font-heading font-bold text-lg text-slate-50 tracking-tight">
+          Grocery
+        </span>
+      </Link>
+
+      <Link to="/dashboard" className="btn-outline no-underline">
+        Gestión
       </Link>
     </header>
   );
